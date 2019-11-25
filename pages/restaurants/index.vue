@@ -8,7 +8,7 @@
 
       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" v-for="restaurant in filteredList" v-bind:key="restaurant" uk-grid>
           <div class="uk-card-media-left uk-cover-container">
-              <img :src="'http://localhost:1337/' + restaurant.image.url" alt="" uk-cover>
+              <img :src="'/' + restaurant.image.url" alt="" uk-cover>
               <canvas width="600" height="400"></canvas>
           </div>
           <div>
